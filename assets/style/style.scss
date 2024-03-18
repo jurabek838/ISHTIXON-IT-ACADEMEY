@@ -1,0 +1,1952 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.background_color {
+    background-color: black;
+    width: 100%;
+}
+
+.container {
+    max-width: 1600px;
+    height: auto;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.header_div {
+    max-width: 100%;
+    height: auto;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_left {
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_ul_li_div {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.text {
+    font-size: 16px;
+    color: white;
+    font-family: sans-serif;
+    cursor: pointer;
+
+    &:hover {
+        color: dodgerblue;
+        transition: .5s;
+    }
+}
+
+.header_logo_img {
+    width: 95px;
+    height: 50px;
+}
+
+.header_right {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_right_text_div {
+    display: flex;
+    flex-direction: column;
+}
+
+.text_two {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+
+    &:hover {
+        color: dodgerblue;
+        transition: .5s;
+    }
+}
+
+.text_twoo {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+
+    &:hover {
+        color: dodgerblue;
+        transition: .5s;
+    }
+}
+
+
+
+.kun_tun {
+    width: 84px;
+    height: 40px;
+    border: transparent;
+    background: none;
+    border: 1px solid white;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: sans-serif;
+}
+
+.kun {
+    // background-color: blueviolet;
+    font-size: 28px;
+    color: white;
+    border-radius: 50px;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+.tun {
+    background-color: blueviolet;
+    font-size: 28px;
+    color: white;
+    border-radius: 50px;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+
+.header_btn {
+    width: 200px;
+    height: 50px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    border: transparent;
+    cursor: pointer;
+
+    &:hover {
+        background-color: dodgerblue;
+        transition: .5s;
+    }
+}
+
+.menu {
+    font-size: 28px;
+    color: white;
+    display: none;
+}
+
+@media screen and (max-width:1340px) {
+    .header_left {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .kun_tun {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1040px) {
+    .header_right_text_div {
+        display: none;
+    }
+}
+
+@media screen and (max-width:840px) {
+    .header_ul_li_div {
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .header_btn {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        font-size: 35px;
+    }
+
+    .header_div {
+        padding: 20px 20px;
+    }
+}
+
+@media screen and (max-width:320px) {
+
+    .header_div {
+        padding: 10px 20px;
+    }
+}
+
+// header tugadi
+
+.main_div {
+    max-width: 100%;
+    height: auto;
+    padding: 80px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main_text_one {
+    max-width: 700px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.main_text_two {
+    max-width: 620px;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.main_img {
+    width: 500px;
+    height: 400px;
+    background-color: rgb(181, 178, 178);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1240px) {
+    .main_text_one {
+        max-width: 600px;
+        font-size: 50px;
+
+    }
+
+}
+
+@media screen and (max-width:1175px) {
+    .main_div {
+        padding: 50px 50px;
+    }
+
+    .main_text_one {
+        max-width: 500px;
+        font-size: 50px;
+
+    }
+}
+
+@media screen and (max-width:1070px) {
+
+    .main_text_one {
+        max-width: 500px;
+        font-size: 30px;
+
+    }
+
+    .main_text_two {
+        font-size: 18px;
+
+    }
+}
+
+
+@media screen and (max-width:891px) {
+    .main_img {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .main_text_one {
+        max-width: 700px;
+        font-size: 38px;
+        text-align: center;
+    }
+
+    .main_text_two {
+        max-width: 800px;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .main_div {
+        padding: 130px 20px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .main_text_one {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .main_text_two {
+        font-size: 14px;
+        margin-top: -1px;
+    }
+
+    .main_div {
+        padding: 40px 20px 0px 20px;
+    }
+
+}
+
+// main tugadi
+
+.section_one_div {
+    max-width: 100%;
+    height: auto;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section_one_p_one {
+    font-size: 60px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.section_one_p_two {
+    max-width: 700px;
+    font-size: 22px;
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.section_one_p_there {
+    max-width: 700px;
+    font-size: 22px;
+    color: white;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.section_one_right_div_one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section_one_right_div_two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.ikki {
+    font-size: 60px;
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+    background-image: linear-gradient(1deg, blue, rgb(26, 244, 26));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.goda {
+    font-size: 60px;
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+    background-image: linear-gradient(1deg, blue, rgb(26, 244, 26));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.ikki_text {
+    font-size: 22px;
+    color: white;
+    font-family: sans-serif;
+    cursor: pointer;
+
+}
+
+.goda_text {
+    font-size: 22px;
+    color: white;
+    font-family: sans-serif;
+    cursor: pointer;
+   
+}
+
+.ikkiikki {
+    font-size: 60px;
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+    background-image: linear-gradient(1deg, blue, rgb(26, 244, 26));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.texttext {
+    font-size: 22px;
+    color: white;
+    font-family: sans-serif;
+    cursor: pointer;
+ 
+}
+
+.goda_texttt {
+    font-size: 22px;
+    color: white;
+    font-family: sans-serif;
+    cursor: pointer;
+
+}
+
+.godagoda {
+    font-size: 60px;
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+    background-image: linear-gradient(1deg, blue, rgb(26, 244, 26));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+@media only screen and (max-width:1200px) {
+    .section_one_right {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .section_one_left {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+
+    .section_one_p_one {
+        font-size: 40px;
+    }
+
+    .section_one_p_two {
+        max-width: 700px;
+        font-size: 17px;
+    }
+
+    .section_one_p_there {
+        max-width: 768px;
+        font-size: 16.5px;
+    }
+
+}
+
+@media only screen and (max-width:460px) {
+    .section_one_p_one {
+        font-size: 30px;
+    }
+
+    .section_one_left {
+        margin-top: -50px;
+    }
+}
+
+@media only screen and (max-width:370px) {
+    .section_one_p_one {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .section_one_p_two {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .section_one_p_there {
+        font-size: 14px;
+    }
+
+    .section_one_left {
+        margin-top: 50px;
+    }
+
+    .section_one_div {
+        padding: 20px 20px;
+    }
+}
+
+//  1-section tugadi 
+
+.section_two {
+    max-width: 100%;
+    height: auto;
+    padding: 20px 50px;
+    margin-top: 100px;
+}
+
+.section_two_p {
+    font-size: 40px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.card {
+    max-width: 1440px;
+    height: 700px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    display: grid;
+    grid-gap: 20px;
+    padding: 20px 10px 20px 10px;
+    margin-top: 60px;
+}
+
+.cards {
+    border: 1px solid rgba(117, 116, 116, 0.794);
+    width: 450px;
+    height: 300px;
+    border-radius: 30px;
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: rgba(205, 201, 201, 0.3) 0px 19px 38px, rgba(143, 138, 138, 0.22) 0px 15px 12px;
+        transition: .5s;
+    }
+}
+
+.card_img {
+    width: 70px;
+    height: 70px;
+    margin-left: 25px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.card_p_one {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.card_p_two {
+    width: 70px;
+    height: 5px;
+    margin-left: 25px;
+    background-color: gray;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.card_p_there {
+    margin-left: 25px;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:1460px) {
+    .card {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width:995px) {
+    .cards {
+        width: 400px;
+        height: 270px;
+    }
+}
+
+@media only screen and (max-width:885px) {
+    .cards {
+        margin-left: -20px;
+    }
+}
+
+@media only screen and (max-width:850px) {
+    .cards {
+        margin-left: -30px;
+    }
+
+    .card {
+        column-gap: 50px;
+        margin-left: -20px;
+    }
+}
+
+@media only screen and (max-width:830px) {
+    .cards {
+        width: 350px;
+        height: 220px;
+    }
+
+    .card_img {
+        width: 50px;
+        height: 50px;
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+
+    .card_p_one {
+        font-size: 24px;
+        margin-top: 5px;
+    }
+
+    .card_p_two {
+        width: 70px;
+        height: 3px;
+        margin-bottom: 10px;
+    }
+
+    .card_p_there {
+        font-size: 18px;
+    }
+}
+
+
+@media only screen and (max-width:830px) {
+    .card {
+        margin-left: 1px;
+    }
+
+    .section_two {
+        margin-top: 30px;
+    }
+
+}
+
+@media only screen and (max-width:755px) {
+
+    .section_two_p {
+        font-size: 30px;
+    }
+
+    .card {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+
+@media only screen and (max-width:390px) {
+
+    .section_two_p {
+        font-size: 26px;
+    }
+
+    .cards {
+        margin-left: -50px;
+    }
+
+}
+
+@media only screen and (max-width:370px) {
+
+    .section_two_p {
+        font-size: 22px;
+    }
+
+    .cards {
+        width: 300px;
+        height: 200px;
+    }
+
+    .card_img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .card_p_one {
+        font-size: 22px;
+    }
+
+    .card_p_two {
+        width: 50px;
+    }
+
+    .card_p_there {
+        font-size: 14px;
+        padding-right: 5px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+
+    .section_two_p {
+        font-size: 20px;
+    }
+
+    .section_two {
+        margin-top: -30px;
+    }
+
+}
+
+// 2-section tugadi
+
+.section_there {
+    max-width: 100%;
+    height: auto;
+    padding: 20px 50px;
+    margin-top: 80px;
+}
+
+.section_there_p {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.section_there_img_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.img_onee {
+    width: 440px;
+    height: 340px;
+    background-color: goldenrod;
+    border-radius: 30px;
+}
+
+.img_twoo {
+    width: 440px;
+    height: 340px;
+    background-color: rgb(45, 39, 39);
+    border-radius: 30px;
+}
+
+.img_theree {
+    width: 450px;
+    height: 350px;
+
+}
+
+.card_div_one {
+    position: relative;
+
+    &:hover {
+        .fon {
+            display: block;
+            transition: .5s;
+        }
+    }
+}
+
+.card_div_two {
+
+    &:hover {
+        .fon {
+            display: block;
+            transition: .5s;
+        }
+    }
+}
+
+.card_div_there {
+    position: relative;
+
+    &:hover {
+        .fon {
+            display: block;
+            transition: .5s;
+        }
+    }
+}
+
+.fon {
+    width: 400px;
+    height: 300px;
+    // background-color: rgb(161, 151, 151);
+    background-color: #000;
+    opacity: 0.6;
+    margin-top: -325px;
+    margin-left: 20px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+
+.texnomart {
+    color: white;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-top: 200px;
+    font-family: sans-serif;
+}
+
+.bi-arrow-up-right {
+    color: white;
+    font-size: 42px;
+    margin-left: 350px;
+}
+
+@media only screen and (max-width:1450px) {
+    .section_there {
+        margin-top: 300px;
+    }
+
+    .section_there_img_div {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .section_there {
+        margin-top: 100px;
+    }
+
+    .card_div_one {
+        margin-bottom: 30px;
+    }
+
+    .card_div_two {
+        margin-bottom: 20px;
+    }
+
+    .img_onee {
+        width: 640px;
+        height: 340px;
+    }
+
+    .img_twoo {
+        width: 640px;
+        height: 340px;
+    }
+
+    .img_theree {
+        width: 650px;
+        height: 350px;
+    }
+
+    .fon {
+        width: 600px;
+        height: 300px;
+    }
+
+    .bi-arrow-up-right {
+        color: white;
+        font-size: 42px;
+        margin-left: 550px;
+    }
+}
+
+@media only screen and (max-width:751px) {
+    .section_there {
+        margin-top: 750px;
+    }
+
+}
+
+@media only screen and (max-width:651px) {
+
+    .img_onee {
+        width: 540px;
+        height: 340px;
+        background-color: goldenrod;
+        border-radius: 30px;
+    }
+
+    .img_twoo {
+        width: 540px;
+        height: 340px;
+        background-color: rgb(45, 39, 39);
+        border-radius: 30px;
+    }
+
+    .img_theree {
+        width: 450px;
+        height: 350px;
+
+
+    }
+}
+
+@media only screen and (max-width:551px) {
+
+    .section_there_p {
+        font-size: 40px;
+    }
+
+    .img_onee {
+        width: 500px;
+        height: 340px;
+        background-color: goldenrod;
+        border-radius: 30px;
+    }
+
+    .img_twoo {
+        width: 500px;
+        height: 340px;
+        background-color: rgb(45, 39, 39);
+        border-radius: 30px;
+    }
+
+    .img_theree {
+        width: 510px;
+        height: 350px;
+
+
+    }
+
+    .fon {
+        width: 460px;
+        height: 300px;
+    }
+
+    .bi-arrow-up-right {
+        color: white;
+        font-size: 42px;
+        margin-left: 410px;
+    }
+}
+
+@media only screen and (max-width:510px) {
+
+    .section_there_p {
+        font-size: 30px;
+    }
+
+    .img_onee {
+        width: 400px;
+        height: 340px;
+        background-color: goldenrod;
+        border-radius: 30px;
+    }
+
+    .img_twoo {
+        width: 400px;
+        height: 340px;
+        background-color: rgb(45, 39, 39);
+        border-radius: 30px;
+    }
+
+    .img_theree {
+        width: 410px;
+        height: 350px;
+
+
+    }
+
+    .fon {
+        width: 360px;
+        height: 300px;
+    }
+
+    .bi-arrow-up-right {
+        color: white;
+        font-size: 42px;
+        margin-left: 310px;
+    }
+}
+
+
+@media only screen and (max-width:411px) {
+
+    .section_there_p {
+        font-size: 28px;
+    }
+
+    .img_onee {
+        width: 350px;
+        height: 250px;
+        background-color: goldenrod;
+        border-radius: 30px;
+    }
+
+    .img_twoo {
+        width: 350px;
+        height: 250px;
+        background-color: rgb(45, 39, 39);
+        border-radius: 30px;
+    }
+
+    .img_theree {
+        width: 360px;
+        height: 260px;
+    }
+
+    .fon {
+        width: 320px;
+        height: 220px;
+        position: relative;
+        position: absolute;
+        top: 340px;
+    }
+
+    .bi-arrow-up-right {
+        color: white;
+        font-size: 42px;
+        margin-left: 270px;
+    }
+
+    .texnomart {
+        font-size: 24px;
+        margin-top: 130px;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .section_there {
+        margin-top: 620px;
+    }
+
+
+    .section_there_p {
+        font-size: 24px;
+    }
+
+    .img_onee {
+        width: 250px;
+        height: 150px;
+        background-color: goldenrod;
+        border-radius: 15px;
+    }
+
+    .img_twoo {
+        width: 250px;
+        height: 150px;
+        background-color: rgb(45, 39, 39);
+        border-radius: 15px;
+    }
+
+    .img_theree {
+        width: 260px;
+        height: 160px;
+        border-radius: 20px;
+    }
+
+    .fon {
+        width: 220px;
+        height: 120px;
+        position: relative;
+        position: absolute;
+        top: 340px;
+    }
+
+    .bi-arrow-up-right {
+        color: white;
+        font-size: 30px;
+        margin-left: 180px;
+    }
+
+    .texnomart {
+        font-size: 18px;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .section_there_p {
+        font-size: 20px;
+    }
+}
+
+// 3-section tugadi
+
+.section_four {
+    max-width: 1380px;
+    height: auto;
+    margin-top: 100px;
+    margin-left: 70px;
+    padding: 20px 50px;
+    border: 1px solid rgb(130, 126, 126);
+}
+
+.section_four_p {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+
+.section_four_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.section_four_top_card_one {
+    text-align: center;
+}
+
+.section_four_top_card_two {
+    text-align: center;
+    margin-top: -50px;
+}
+
+.section_four_top_card_there {
+    text-align: center;
+    margin-top: -50px;
+}
+
+.section_four_top_text1 {
+    font-size: 34px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.section_four_top_text2 {
+    max-width: 400px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.section_four_top_text3 {
+    max-width: 400px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.section_four_top_img1 {
+    width: 120px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.section_four_top_img2 {
+    width: 120px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.section_four_top_text4 {
+    font-size: 34px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.section_four_top_text5 {
+    max-width: 400px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.section_four_top_img3 {
+    width: 120px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.section_four_top_text6 {
+    font-size: 34px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.section_four_top_text7 {
+    max-width: 400px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.section_four_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section_four_bottom_card_one {
+    text-align: center;
+}
+
+.section_four_bottom_card_two {
+    text-align: center;
+}
+
+.section_four_bottom_card_there {
+    text-align: center;
+}
+
+.section_four_bottom_img1 {
+    width: 140px;
+    height: 110px;
+    cursor: pointer;
+}
+
+.section_four_bottom_img2 {
+    width: 150px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.section_four_bottom_img3 {
+    width: 120px;
+    height: 110px;
+    cursor: pointer;
+}
+
+.section_four_bottom_text1 {
+    font-size: 34px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.section_four_bottom_text2 {
+    max-width: 400px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.section_four_bottom_text3 {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.section_four_bottom_text4 {
+
+    font-size: 34px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.section_four_bottom_text5 {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.section_four_bottom_text6 {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.section_four_bottom_text7 {
+    font-size: 34px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 30px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.section_four_bottom_text8 {
+    max-width: 400px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 30px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.section_four_bottom_text9 {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 30px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width:1300px) {
+    .section_four_top {
+        flex-wrap: wrap;
+    }
+
+    .section_four_bottom {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width:766px) {
+    .section_four_top_card_one {
+        margin-top: 30px;
+    }
+
+    .section_four_top_card_two {
+        margin-top: 50px;
+    }
+
+    .section_four_top_card_there {
+        margin-top: 50px;
+    }
+
+    .section_four_bottom_card_one {
+        margin-top: 30px;
+    }
+
+    .section_four_bottom_card_two {
+        margin-top: 50px;
+    }
+
+    .section_four_bottom_card_there {
+        margin-top: 50px;
+    }
+
+    .section_four_bottom {
+        margin-top: -100px;
+    }
+
+    .section_four {
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .section_four_p {
+        font-size: 28px;
+    }
+
+    .section_four_top_text1 {
+        font-size: 18px;
+    }
+
+    .section_four_top_text2 {
+        width: 300px;
+        font-size: 16px;
+    }
+
+    .section_four_top_text3 {
+        font-size: 16px;
+
+    }
+
+    .section_four_top_text4 {
+        font-size: 22px;
+    }
+
+    .section_four_top_text5 {
+        font-size: 14px;
+    }
+
+    .section_four_top_text6 {
+        font-size: 22px;
+    }
+
+    .section_four_top_text7 {
+        font-size: 14px;
+    }
+
+    .section_four_bottom_text1 {
+        font-size: 22px;
+    }
+
+    .section_four_bottom_text2 {
+        max-width: 300px;
+        font-size: 13px;
+    }
+
+    .section_four_bottom_text3 {
+        font-size: 13px;
+    }
+
+
+    .section_four_bottom_text4 {
+        font-size: 22px;
+    }
+
+    .section_four_bottom_text5 {
+        font-size: 18px;
+        margin-left: 0px;
+    }
+
+    .section_four_bottom_text6 {
+        font-size: 14px;
+        margin-left: 0px;
+    }
+
+    .section_four_bottom_text7 {
+        font-size: 22px;
+        margin-left: 0px;
+    }
+
+    .section_four_bottom_text8 {
+        font-size: 14px;
+        margin-left: 0px;
+    }
+
+    .section_four_bottom_text9 {
+        font-size: 14px;
+        margin-left: 0px;
+    }
+}
+
+// 4-section tugadi
+
+.section_faef {
+    width: 100%;
+    height: auto;
+    padding: 20px 50px;
+    margin-top: 50px;
+}
+
+.section_faef_p {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+.section_faef_img_div {
+    display: flex;
+    align-items: center;
+    grid-area: 30px;
+    justify-content: space-between;
+}
+
+.section_faef_img_div1 {
+    width: 330px;
+    height: 330px;
+    border: 1px solid white;
+    border-radius: 50px;
+    position: relative;
+
+    &:hover {
+        .hover_block {
+            display: block;
+        }
+    }
+}
+
+.section_faef_img_div2 {
+    width: 330px;
+    height: 330px;
+    border: 1px solid white;
+    border-radius: 50px;
+    position: relative;
+
+    &:hover {
+        .hover_block {
+            display: block;
+        }
+    }
+}
+
+.section_faef_img_div3 {
+    width: 330px;
+    height: 330px;
+    border: 1px solid white;
+    border-radius: 50px;
+    position: relative;
+
+    &:hover {
+        .hover_block {
+            display: block;
+        }
+    }
+}
+
+.section_faef_img_div4 {
+    width: 330px;
+    height: 330px;
+    border: 1px solid white;
+    border-radius: 50px;
+    position: relative;
+
+    &:hover {
+        .hover_block {
+            display: block;
+        }
+    }
+}
+
+.section_faef_img {
+    width: 320px;
+    height: 320px;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+
+.hover_block {
+    width: 310px;
+    height: 100px;
+    margin-left: 10px;
+    border: 1px solid;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: -60px;
+    position: absolute;
+    background-color: black;
+    box-shadow: rgb(152, 162, 173) 0px 20px 30px -10px;
+    opacity: 0.8;
+    z-index: 1;
+    display: none;
+}
+
+.hover_block_p1 {
+    font-size: 28px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.hover_block_p2 {
+    width: 100px;
+    height: 3px;
+    background-color: gray;
+    border-radius: 30px;
+    margin-left: 100px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.hover_block_p3 {
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:1385px) {
+    .section_faef_img_div {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width:766px) {
+    .section_faef_img_div1 {
+        margin-bottom: 50px;
+    }
+
+    .section_faef_img_div2 {
+        margin-left: 5px;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .section_faef_p {
+        font-size: 40px;
+    }
+
+    .section_faef_img_div1 {
+        width: 250px;
+        height: 250px;
+    }
+
+    .section_faef_img_div2 {
+        width: 250px;
+        height: 250px;
+    }
+
+    .section_faef_img_div3 {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 50px;
+    }
+
+    .section_faef_img_div4 {
+        width: 250px;
+        height: 250px;
+    }
+
+    .section_faef_img {
+        margin-top: -2px;
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width:330px) {
+    .section_faef_p {
+        font-size: 30px;
+    }
+
+    .section_faef_img_div1 {
+        margin-left: -15px;
+    }
+
+    .section_faef_img_div2 {
+        margin-left: -15px;
+    }
+
+    .section_faef_img_div3 {
+        margin-left: -15px;
+    }
+
+    .section_faef_img_div4 {
+        margin-left: -15px;
+    }
+
+    .hover_block {
+        width: 240px;
+        height: 100px;
+        margin-left: 5px;
+    }
+
+    .hover_block_p1 {
+        font-size: 20px;
+    }
+
+    .hover_block_p2 {
+        margin-left: 70px;
+    }
+
+    .hover_block_p3 {
+        font-size: 18px;
+    }
+
+}
+
+// 5-section tugadi
+
+.last_section {
+    max-width: 600px;
+    height: 500px;
+    border: 1px solid white;
+    margin-left: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.input_one {
+    width: 500px;
+    height: 50px;
+    background: none;
+    text-indent: 20px;
+    border: transparent;
+    outline: none;
+    margin-top: 30px;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 18px;
+}
+
+.btn_last {
+    width: 500px;
+    height: 50px;
+    background: none;
+    border: 1px solid white;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 60px;
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+        color: dodgerblue;
+        border: 1px solid dodgerblue;
+        transition: .5s;
+    }
+}
+
+@media only screen and (max-width:1060px) {
+    .last_section {
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .last_section {
+        margin-left: 80px;
+    }
+}
+
+@media only screen and (max-width:680px) {
+    .last_section {
+        max-width: 400px;
+        height: 300px;
+    }
+
+    .input_one {
+        width: 300px;
+        height: 30px;
+    }
+
+    .btn_last {
+        width: 300px;
+        height: 50px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width:485px) {
+    .last_section {
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width:421px) {
+    .last_section {
+        width: 300px;
+        height: 250px;
+    }
+
+    .input_one {
+        width: 200px;
+        height: 50px;
+        margin-top: 5px;
+        font-size: 14px;
+    }
+
+    .btn_last {
+        width: 200px;
+        height: 50px;
+        margin-bottom: 50px;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .btn_last {
+        font-size: 16px;
+    }
+}
+
+// 6-section tugadi
+
+.footer_div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 200px;
+    margin-top: 100px;
+}
+
+.footer_logo {
+    width: 95px;
+    height: 50px;
+}
+
+.footer_div_two {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.bi-geo-alt {
+    font-size: 22px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.footer_text {
+    font-size: 22px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.footer_text_two {
+    font-size: 22px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.footer_href {
+    text-decoration: none;
+}
+
+.footer_tel {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer_hreff {
+    color: white;
+    text-decoration: none;
+}
+
+.tel {
+    font-family: sans-serif;
+    font-style: 18px;
+    color: white;
+}
+
+.footer_div_four {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer_icon {
+    font-size: 22px;
+    color: white;
+}
+
+@media only screen and (max-width:1350px) {
+    .footer_div {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width:766px) {
+    .footer_div {
+        flex-direction: column;
+    }
+
+    .footer_div_one {
+        margin-left: -60px;
+    }
+
+    .footer_div_two {
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+
+    .footer_text {
+        font-size: 28px;
+    }
+
+    .footer_text_two {
+        font-size: 18px;
+    }
+
+    .footer_div_there {
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    .footer_div_four {
+        margin-left: -50px;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    .footer_div {
+        margin-left: -150px;
+    }
+
+    .tel {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .footer_div {
+        margin-left: -250px;
+    }
+
+    .tel {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+
+    .tel {
+        font-size: 10px;
+        width: 100px;
+    }
+
+    .footer_div_four {
+        margin-left: 0px;
+    }
+
+    .footer_logo {
+        margin-left: 30px;
+    }
+}
+
+.color {
+    color: white;
+}
+
+// footer tugadi
